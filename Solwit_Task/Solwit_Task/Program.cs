@@ -40,6 +40,8 @@ namespace Solwit_Task
                         task3.Initialize();
                         task3.RunTask();
                         break;
+                    case "4":
+                        break;
                     default:
                         Console.WriteLine("Opcja o podanym numerze nie istnieje.");
                         break;

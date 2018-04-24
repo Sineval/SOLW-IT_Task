@@ -94,7 +94,7 @@ namespace Solwit_Task.Task_02
             bool done = false;
 
             Console.Clear();
-            Console.WriteLine("Lista rekordów (format 'ID' | 'Imię' | 'Nazwisko' | 'Numer telefonu')\n");
+            Console.WriteLine("Lista rekordów (format: 'ID' | 'Imię' | 'Nazwisko' | 'Numer telefonu')\n");
             for (index = 0; index < phonebook.Count; index++)
             {
                 Console.WriteLine(string.Format("{0} | {1} | {2} | {3}", index + 1, phonebook[index].Name, phonebook[index].LName, phonebook[index].Number));
@@ -125,7 +125,7 @@ namespace Solwit_Task.Task_02
         private void ShowRecords()
         {
             Console.Clear();
-            Console.WriteLine("Lista rekordów (format 'ID' | 'Imię' | 'Nazwisko' | 'Numer telefonu')\n");
+            Console.WriteLine("Lista rekordów (format: 'ID' | 'Imię' | 'Nazwisko' | 'Numer telefonu')\n");
             for (int i = 0; i < phonebook.Count; i++)
             {
                 Console.WriteLine(string.Format("{0} | {1} | {2} | {3}", i + 1, phonebook[i].Name, phonebook[i].LName, phonebook[i].Number));
